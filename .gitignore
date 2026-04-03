@@ -1,0 +1,68 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+env/
+.venv/
+
+# Environment variables / secrets
+.env
+.env.*
+*.env
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# PyInstaller
+*.spec
+
+# Coverage / testing
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Static files (optional - only if generated)
+# static/
+
+# Uploaded files (IMPORTANT for your project)
+uploads/
+*.csv
+
+# Temporary files
+*.tmp
+*.bak
+
+# Node (if you add frontend tooling later)
+node_modules/
+
+# SQLite database (if added later)
+*.db
+*.sqlite3
